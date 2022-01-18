@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../reset css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de gastos - Elas Codam</title>
+</head>
+<body>
+    <main>
+        <section class="insecaoDeInformacoes">
+                <h1>Controle de Gastos Kenzie</h1>
+            <div class="fomularioOrcamento">
+                <h2>Total Orçamento</h2>
+                <input type="text">
+                <button>Calcular</button>
+            </div>
+            <div class="formularioEntradaDespesa">
+                <h2>Nome da despesa</h2>
+                <input type="text" class="formularioEntradaDespesa_nome">
+                <h2>Valor da despesa</h2>
+                <input type="number" class="formularioEntradaDespesa_valor">
+                <button>Adicionar despesa</button>
+            </div>
+           <div class="despesas">
+               <div class="despesas_cabecalho">
+                    <p class="tituloDespesa">Título despesa</p>
+                <p>Valor despesa</p>
+           </div>
+                <ul class="containerDespesas_lista">
+                    <li>
+                       <!-- <h3>- hotel</h3>
+                        <p>$43</p>  -->
+                   <img src="https://raw.githubusercontent.com/Kenzie-Academy-Brasil/controle-gastos-kenzie/a93833aeaf6d0b24d29bab4a72e7c8732b54f528/assets/img/trash.svg" alt="lixeira">
+                    </li>
+                </ul>
+           </div>
+
+        </section>
+
+        <section class="secaoImpressaoResultados">
+            <div class="secaoImpressaoResultados_orcamento">
+                <h3>Orçamento</h3>
+                <p>+R$ 0</p> 
+            </div>
+            <div class="secaoImpressaoResultados_despesas">
+                <h3>Despesas</h3>
+                <p>-R$0</p>
+            </div>
+            <div class="secaoImpressaoResultados_saldo">
+                <h3>Saldo</h3>
+                <p>R$0</p>
+            </div>
+        </section>
+    </main>
+    
+</body>
+    <script src="../js/elascodam.js"></script>
+</html>

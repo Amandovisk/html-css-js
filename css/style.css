@@ -1,0 +1,131 @@
+body{
+    background-image: linear-gradient(90deg, #8A2387,#E94057, #F27121 );
+     
+}
+
+main{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between; 
+    font-family: 'Open Sans Condensed', 'sans-serif';  
+      
+}
+
+main section{
+    border-radius: 10px;
+    background-color: #FFFFFFbb;
+    padding: 30px;
+}
+
+h1{
+    font-size: 25px;
+    font-weight: bold;
+   
+}
+
+.insecaoDeInformacoes{
+    width: 600px;
+    
+}
+
+h2{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.formularioEntradaDespesa h2{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-top: 10px;
+    
+}
+.insecaoDeInformacoes input{
+    display: block;
+    width: 100%;
+    box-shadow: 0 0;
+    -webkit-box-shadow: -10px 3px 17px -12px rgba(94,94,94,0.32); 
+    box-shadow: -10px 3px 17px -12px rgba(94,94,94,0.32);
+    border-radius: 3px;
+    height: 30px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+
+.insecaoDeInformacoes button{
+    background-color:#E94057;
+    display: block;
+    width: 100%;
+    border:none;
+    color:white;
+    font-weight: bold;
+    padding: 8px 0;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.despesas_cabecalho{
+    display:flex;
+    margin: 40px 0; 
+
+}
+.despesas_cabecalho p{
+    font-weight:bold;
+    font-size: 16px;
+
+}
+.tituloDespesa{
+    margin-right: 150px;
+}
+
+.despesas p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.secaoImpressaoResultados div{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.secaoImpressaoResultados{
+    width: 210px;  
+    font-weight: bold;
+    border-bottom:1px solid #eeeeee ;
+}
+    
+    
+.secaoImpressaoResultados h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+.secaoImpressaoResultados p{
+    font-size: 28px;
+}
+
+.containerDespesas_lista li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #ecfbef8f;
+    color: #78ce71;
+    font-weight: bold;
+    padding: 30px 20px;
+    border-radius: 2px;   
+    
+}
+
+.secaoImpressaoResultados_orcamento p{
+    color: #78ce71;
+}
+
+.secaoImpressaoResultados_saldo p{
+    color: #e44f3c;}
+
+.secaoImpressaoResultados_despesas p{
+    color: #64d2ff;
+}
+
